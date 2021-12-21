@@ -1,6 +1,8 @@
-# 实验四
+# 实验四 图结构的应用
 
-完成图基本操作；并将下图中图数据存储，其中边的数据在文件services.txt。格式如：“Lisbon Madrid 75 450”，表示Lisbon到Madrid距离为450，乘车费用为75
+## 完成如下应用
+
+完成图的基本操作，并将下图中图数据存储，其中边的数据在文件services.txt。格式如：“Lisbon Madrid 75 450”，表示Lisbon到Madrid距离为450，乘车费用为75
 
 ![map](resources/map.jpg#pic_center)
 
