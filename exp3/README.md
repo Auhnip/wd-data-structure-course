@@ -4,7 +4,7 @@
 
 使用树结构存储如下图所示的医院楼房结构
 
-![tree pic](resources/tree.png)
+![tree pic](/img/tree.png)
 
 医院楼房树形结构
 
