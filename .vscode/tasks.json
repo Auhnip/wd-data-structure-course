@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc-build-debug",
+            "command": "D:\\library\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-g",       //for debug
+		"-Wall",
+		"-Wextra",
+                "${fileDirname}/*.c",      //source filename
+                "-o",
+                "${fileDirname}/main-gdb.exe",       //exe filename
+                "-std=c99",     //C99 standard
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"     //current working diretory
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "gcc-build-release",
+            "command": "D:/library/mingw64/bin/gcc.exe",
+            "args": [
+                "-static",
+		"-Wall",
+		"-Wextra",
+                "${fileDirname}/*.c",
+                "-o",
+                "${fileDirname}/main.exe",
+                "-std=c99",
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ]
+}
