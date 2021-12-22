@@ -9,7 +9,7 @@
 医院楼房树形结构
 
 ---
-该结构应该是通过读取文件`definition.txt`文件创建，格式如`hospital 10 floor`，表示`hospital`有10层`floor`。将树形结构创建后，可以读取queries.txt中的查询完成对应的操作。操作有两种：`whatis connecting_corridor`意思是查询`connecting_corridor`有几个子部件。比如在该图中，`connecting_corridor`含有5个`supply room`，则打印出:
+该结构应该是通过读取文件`definition.txt`文件创建，格式如`hospital 10 floor`，表示`hospital`有10层`floor`。将树形结构创建后，可以读取`queries.txt`中的查询完成对应的操作。操作有两种：`whatis connecting_corridor`意思是查询`connecting_corridor`有几个子部件。比如在该图中，`connecting_corridor`含有5个`supply room`，则打印出:
 
 ```text
 Part long_corridor subparts are:
